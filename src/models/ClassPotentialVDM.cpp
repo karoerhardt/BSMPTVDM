@@ -123,7 +123,7 @@ std::vector<std::string> Class_VDM::addLegendTripleCouplings() const
   particles[2] = "G0";
   particles[3] = "H1";
   particles[4] = "H2";
-  particles[5] = "H3";
+  particles[5] = "GX";
 
   std::string out = "Tree_";
   for (std::size_t i = 0; i < NHiggs; i++)
